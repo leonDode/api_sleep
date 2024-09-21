@@ -4,7 +4,7 @@ export class CreateUsersDTO{
 
 
     @IsString()
-    readonly nome: String
+    readonly nome: string
 
     
     @IsString()
